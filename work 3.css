@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.karo{
+    width: 280px;
+    height: 550px;
+    border: solid 5px wheat;
+    background-color: black;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    border-radius: 30px;
+}
+.tom{
+    position: relative;
+    bottom: 505px;
+    left: 510px;
+}
+.overlay{
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    background: linear-gradient(to top,rgba(0,0,0,0.7),transparent 70%);
+}
+.profile-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.profile-section img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    bottom: 130px;
+}
+.reel h3{
+    margin: 0;
+    font-size: 20px;
+}
+.reel p{
+    margin: 5px 0 10px;
+    font-size: 13px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.actions button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.like-count{
+    font-size: 14px;
+}
+.toggle-comments{
+    color: #00f;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.comment-section{
+    display: none;
+    margin-top: 10px;
+}
+.comment{
+    padding-left: 10px;
+    border-left: 2px solid white;
+    margin-top: 5px;
+    font-size: 13px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}

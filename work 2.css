@@ -1,0 +1,31 @@
+.employ li{
+    list-style: none;
+    /* padding: 3px; */
+    font-family: sans-serif;
+    position: relative;
+    right: 60px;
+    margin: auto;
+    /* font-style: inherit; */
+}
+.employ{
+    display: flex;
+    /* width: 30%; */
+    height: 250px;
+    /* gap: 20px; */
+    background-color: limegreen;
+    margin: auto;
+    padding: 5em;
+    box-shadow: 3px 1px 5px 2px rgb(146, 113, 70);
+    border-radius: 30px;
+    position: relative;
+    top: 150px;
+}
+.employ img{
+    width: 240px;
+    height: 260px;
+    padding: 1em;
+    position: relative;
+    right: 80px;
+    margin: auto;
+    box-shadow: 3px 1px 5px 2px rgb(146, 113, 70);
+}

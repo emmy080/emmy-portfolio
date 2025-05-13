@@ -1,0 +1,32 @@
+.box img{
+    width: 250px;
+    height: 275px;
+   padding: 1em;
+   margin: auto;
+   box-shadow: 3px 1px 5px 2px rgb(156, 111, 51) ;
+}
+.box{
+    width: 17%;
+    /* height: 350px; */
+    background-color: blanchedalmond;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(146, 113, 70);
+  margin: auto;
+}
+.box h4{
+    text-decoration: line-through;
+}
+.box button{
+    background-color:tan;
+    border: none;
+}
+.box p {
+   color: #fff;
+   background-color:grey ;
+   border: solid grey;
+   /* width: 120px; */
+   font-size: 21px;
+   height: 22px;
+   text-align: center;
+}

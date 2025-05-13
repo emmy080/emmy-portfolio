@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="work 3.css">
+</head>
+<body>
+    <div class="karo">
+    </div>
+    <div class="tom">
+    <video src="vide.mp4" width="270" height="540" controls loop autoplay >my video</video>
+    <div class="overlay">
+        <div class="reel">
+              <div class="profile-section">
+                <img src="gle.jpg" alt="Profile">
+                <div>
+                  <h3>emmy Strange Page</h3>
+                  <button style="color: #00f; background: none; border: none; cursor: pointer;">Follow</button>
+                </div>
+              </div>
+              <p>GLE</p>
+              <div class="actions">
+                <button onclick="likePost(this)">👍</button> <span class="like-count">0</span> likes
+              </div>
+              <div>
+                <span class="toggle-comments" onclick="toggleComments(this)">View comments</span>
+              </div>
+              <div class="comment-section">
+                <div class="comments"></div>
+                <input type="text" placeholder="Write a comment..." onkeydown="handleComment(event, this)" />
+              </div>
+            </div>
+          </div>
+
+    <script src="work 3.js"></script>
+</body>
+</html>
